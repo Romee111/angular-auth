@@ -1,27 +1,28 @@
-# AngularAuth
+# Angular Authentication with JWT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+This Angular project demonstrates **JWT-based Authentication** and includes functionality for:
+- Login and Signup Forms
+- Token-based Authentication using JWT
+- Protecting Routes with Guards
+- Storing Token in `localStorage`
+- Mock API calls for login and signup
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Login**: Users can log in using a mock email and password.
+- **Signup**: Simulated signup for new users.
+- **Route Guards**: Routes are protected and require a valid token.
+- **Token Storage**: JWT tokens are stored in `localStorage` and used to authenticate requests.
 
-## Code scaffolding
+## Technologies Used
+- **Angular**: For building the front-end application.
+- **JWT**: For handling token-based authentication.
+- **RxJS**: For reactive programming and handling observables.
+- **Mock API**: Simulated API calls for login and signup.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup Instructions
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/angular-auth-jwt.git
+   cd angular-auth-jwt
